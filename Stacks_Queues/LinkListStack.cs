@@ -23,6 +23,8 @@ namespace Stacks_Queues
             this.top = node;
             Console.WriteLine("{0} pushed to stack ", value);
         }
+
+       
         public void Display()
         {
             Node temp = this.top;

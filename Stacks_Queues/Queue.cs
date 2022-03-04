@@ -30,11 +30,11 @@ namespace Stacks_Queues
             }
         }
 
-        public void Peak_Pop()
+        public void Dequeue()
         {
             while (top != null)
             {
-                Console.WriteLine($"peek: {top.data}");
+                Console.WriteLine($"start: {top.data}");
                 top = top.next;
             }
         }

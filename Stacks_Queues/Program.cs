@@ -7,12 +7,12 @@ namespace Stacks_Queues
     {
         static void Main(string[] args)
         {
-            LinkListStack linkListStack = new LinkListStack();
-            linkListStack.Push(70);
-            linkListStack.Push(30);
-            linkListStack.Push(56);
-            linkListStack.Peak_Pop();
-            linkListStack.Display();
+            Queue queue = new Queue();
+            queue.Push(70);
+            queue.Push(30);
+            queue.Push(56);
+            queue.Peak_Pop();
+            queue.DisplayQueue();
         }
     }
 }
